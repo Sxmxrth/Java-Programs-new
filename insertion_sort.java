@@ -2,10 +2,9 @@ import java.util.Arrays;
 
 public class insertion_sort {
     public static void main(String[] args) {
-        int[] arr = {5,3,4,1,2};
+        int[] arr = {5,-3,4,21,32,19,-101};
         insertionSort(arr);
     }
-
     static void insertionSort(int[] arr){
         int temp = 0;
         for (int i = 0; i < arr.length-1; i++) {
